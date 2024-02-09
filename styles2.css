@@ -1,0 +1,1300 @@
+    /* override starts */
+    .tab-solutions,
+    .secondary-headline {
+      display: none !important;
+    }
+    .wrapper .main-container {
+      padding: 0 !important;
+    }
+    .wrapper.topic-page {
+      background: #000 !important;
+    }
+    .standard-white-component p {
+      display: none !important;
+    }
+    .tab-all {
+      width: 100% !important;
+    }
+    .topic-page .standard-white-component {
+      padding: 0 !important;
+    }
+    .tc-container {
+      background-color: black;
+      width: 100%;
+      padding: 60px;
+    }
+    .htmlfragment .section + .new .section {
+      display: none;
+    }
+    #getintouch-component {
+      display: none;
+    }
+    .topic-page
+      .col-70
+      .table-frame#featured-more-topic
+      .section.layoutcolumnctrl {
+      width: 100%;
+    }
+
+    .layout-ctrl [class^="awc-"] {
+      background: #000;
+    }
+
+    .topicpagebanner .topic-description {
+      border: none !important;
+    }
+    .topicpagebanner .dark {
+      height: 450px !important;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+    .topic-description {
+      margin-left: 49%;
+      background: none;
+      padding: 0px 10rem 0 40px;
+      background: none !important;
+    }
+    /* override ends */
+
+    /* general starts */
+    .clear {
+      clear: both;
+    }
+    .tc-slug {
+      font-size: 18px;
+    }
+    .tc-white {
+      color: #fff;
+    }
+    .deloitte-green {
+      color: #86bc25;
+    }
+    .ftitle {
+      font-size: 24px;
+    }
+    .tc-underline {
+      text-decoration: underline;
+    }
+    .tc-bold {
+      font-size:24px;
+      color:#86BC25;
+      font-weight: bolder;
+    }
+    .tc-videoTopContainer {
+      position: absolute !important;
+      top: 0% !important;
+      z-index: 0 !important;
+      height:31rem !important;
+    }
+    .tc-imageTopContainer {
+      display: none;
+    }
+    .tc-ctaButton {
+      cursor: pointer;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      width: auto;
+      margin: auto;
+      -webkit-transition: all 0.125s linear;
+      -moz-transition: all 0.125s linear;
+      -ms-transition: all 0.125s linear;
+      -o-transition: all 0.125s linear;
+      transition: all 0.125s linear;
+      border-collapse: separate;
+      padding: 9px 48px;
+      font-size: 16px;
+      color: #86bc25 !important;
+      border: 2px solid #86bc25;
+      background-color: #0000;
+    }
+    .tc-ctaButton:hover {
+      color: #000 !important;
+      border: 2px solid #86bc25;
+      background-color: #86bc25;
+    }
+    .tc-arrowUpContainer {
+      margin-top: 5rem;
+      display: flex;
+      justify-content: center;
+    }
+    .tc-arrowDownContainer {
+      display: flex;
+      justify-content: center;
+      z-index: 2;
+      position: absolute;
+      top: 7%;
+      right: 48%;
+    }
+    .ancrePhone {
+      width: 40px;
+    }
+    .contactAncreContainer {
+      display: flex;
+      justify-content: flex-end;
+    }
+    /* general ends */
+
+    /* arguments starts */
+    .tc-argumentsTitle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+    .tc-arguments {
+      width: calc(100% / 3);
+      float: left;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 3rem;
+      padding: 0 60px;
+    }
+    .tc-arguments-1-img {
+      margin-bottom: 1rem;
+    }
+    .tc-arguments-1-text,
+    .tc-arguments-2-text,
+    .tc-arguments-3-text {
+      font-size: 18px;
+    }
+    /* classement ends */
+
+    /* rankings starts */
+    .tc-rankings {
+      background-color: #222222;
+      border-top: 2px solid #86bc25;
+      border-bottom: 2px solid #86bc25;
+      padding: 30px 60px;
+    }
+    .tc-rankingsPic {
+      float: left;
+      margin-right: 4rem;
+      margin-top: 2rem;
+    }
+    .tc-rankingsTitle {
+      text-align: center;
+      margin-bottom: 1rem;
+      padding-right: 8rem;
+    }
+    .tc-rankingsContainer {
+      margin-bottom: 5rem;
+    }
+    .tc-rankingsQuote {
+      font-size: 16px;
+    }
+    .tc-rankingsText {
+      padding: 0px 8% 0 20%;
+    }
+    /* rankings ends */
+
+    /* experts starts */
+    .tc-contact {
+      margin-top: 5rem;
+    }
+    .tc-contactTitle {
+      text-align: center;
+      font-size: 32px;
+      color: #fff;
+      margin-bottom: 3rem;
+    }
+    .tc-name,
+    .tc-department,
+    .tc-email {
+      font-size: 16px;
+      color: #fff;
+    }
+    .tc-department {
+      color: #97999b;
+    }
+    .tc-bio {
+      font-size: 14px;
+      color: #fff;
+    }
+    .tc-email a {
+      color: #fff;
+    }
+    .tc-email a:visited {
+      color: #fff;
+    }
+    .tc-contactInfo {
+      width: 25%;
+      float: left;
+      margin-right: 3rem;
+    }
+    .tc-contactPic {
+      width: 15%;
+      float: left;
+      margin-right: 3rem;
+    }
+    .tc-contactBio {
+      width: 56%;
+      float: left;
+    }
+    .tc-contactPic img {
+      border-bottom: 3px solid #86bc25;
+    }
+    .tc-bio {
+      line-height: 26px;
+    }
+    .tc-contactBio {
+      padding-right: 60px;
+    }
+    .tc-contactPictoRight {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .tc-contactInfo {
+      text-align: right;
+    }
+    /* experts ends */
+
+    /* offer starts */
+    .tc-offerCards {
+      padding: 30px 60px;
+    }
+    .tc-offerCardTitle {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .tc-offerCardTitle span {
+      font-weight: bold;
+      font-size: 18px;
+      color: #fff;
+    }
+    .tc-offerCardText,
+    .tc-offerTitle {
+      text-align: center;
+    }
+    .tc-offerCardText {
+      font-size: 14px;
+    }
+    .tc-offerCardText span {
+      color: #fff;
+    }
+    .tc-offerTitle {
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    .tc-offerTitle span {
+      color: #fff;
+      font-size: 32px;
+    }
+    .tc-offerCard {
+      width: calc(100% / 3 - 33px);
+      padding: 20px;
+      border: 1px solid #86bc25;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(38, 137, 13, 1);
+      -moz-box-shadow: 0px 0px 15px 0px rgba(38, 137, 13, 1);
+      box-shadow: 0px 0px 15px 0px rgba(38, 137, 13, 1);
+      float: left;
+      margin-bottom: 3rem;
+      text-align: center;
+      min-height: 18rem;
+    }
+    .tc-offerCardMiddle {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    /* offer ends */
+
+    /* tabs starts*/
+    .tab-nav {
+      margin: 0;
+      padding: 0;
+    }
+    .tc-tabsTitle {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .tc-tabsTitle span {
+      color: #fff;
+      font-size: 32px;
+    }
+
+    .tc-tabTitle {
+      margin-bottom: 1rem;
+    }
+    .tc-tabTitle span {
+      color: #86bc25;
+      font-size: 24px;
+    }
+
+    .tc-tabText span {
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .tab-link {
+      padding: 10px 20px;
+      color: #86bc25 !important;
+      display: inline-block;
+      background-color: transparent;
+      text-decoration: none;
+      padding: 9px 36px;
+      font-size: 16px;
+      text-align: center;
+      font-weight: bold;
+      border-bottom: 3px solid #000;
+    }
+    .tab-link.is-active {
+      color: #86bc25;
+      background-color: transparent;
+      border-bottom: 3px solid #86bc25;
+    }
+    .tab-link:last-child {
+      margin-right: 0;
+    }
+    .tab-link:hover {
+      color: #86bc25;
+      background-color: transparent;
+    }
+    .tab-link:focus {
+      outline: 0;
+    }
+
+    .sel {
+      display: none;
+    }
+    .select-active {
+      display: block;
+    }
+
+    .tab-content {
+      display: none;
+      background-color: transparent;
+      color: #fff;
+      border-top: 1px solid #54565a;
+    }
+    .tab-content.is-active {
+      display: block;
+      /* padding: 20px; */
+      padding: 30px 60px;
+    }
+    .tab-contents {
+      margin-bottom: 100px;
+    }
+    .tc-tabContent {
+      float: left;
+      width: 68%;
+      margin-right: 0;
+      padding-right: 5rem;
+    }
+    .tab-link:last-child {
+      padding-right: 36px;
+    }
+    .tc-select {
+      display: inline-block;
+      background-color: transparent;
+      text-decoration: none;
+      padding: 9px 37px;
+      font-size: 16px;
+      text-align: center;
+      font-weight: bold;
+      color: #86bc25;
+      border: 1px solid #86bc25;
+      width: 100%;
+    }
+    .tab-nav {
+      display: block;
+    }
+    .tc-selectTabs {
+      display: none;
+    }
+    /* tabs end */
+
+    /* promo starts */
+    .table-frame .featuredpromo {
+      margin: 1rem;
+    }
+    .featured-promo.insight-black,
+    .topic-promo-featured.insight-black {
+      border: 1px solid #6db300;
+      background-color: #292a2c;
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(38, 137, 13, 1);
+      -moz-box-shadow: 0px 0px 15px 0px rgba(38, 137, 13, 1);
+      box-shadow: 0px 0px 15px 0px rgba(38, 137, 13, 1);
+      min-height: 25rem;
+    }
+    .article-text h2 {
+      color: #6db300 !important;
+      font-weight: bold !important;
+      margin: 0;
+      font-size: 20px;
+    }
+    .article-text {
+      background-color: #292a2c;
+      padding: 20px;
+    }
+    .article-image {
+      border: none !important;
+    }
+    .tc_readmore {
+      display: flex;
+      justify-content: center;
+    }
+    .tc_readmoreBtn {
+      background: #000;
+      color: #86bc25;
+      border: 1px solid #86bc25;
+      margin: 10px;
+      display: inline-block;
+      padding: 6px 30px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-image: none;
+      border-radius: 17px;
+    }
+    .tc_readmoreBtn:hover {
+      background: #86bc25;
+      color: #fff !important;
+    }
+    .tc_readmoreBtn:visited {
+      color: #86bc25;
+    }
+    /* promos ends */
+
+
+    /* map starts*/
+    .tc-mapContainer {
+      margin-bottom: 5rem;
+    }
+    .tc-mapHeader {
+      text-align:center;
+    }
+    .tc-mapHeader span {
+      text-align: center;
+      color: #fff;
+    }
+    .tc-mapHeader1 {
+      font-size: 28px;
+    }
+    .tc-mapHeader2 {
+      font-size: 22px;
+    }
+    .tc-mapTitle {
+      text-align: left;
+      margin-bottom: 1rem;
+      padding-right: 8rem;
+      font-size: 24px;
+      font-weight: 800;
+      color: #86bc25;
+      margin-top: 30px;
+    }
+    .tc-mapDetails {
+      font-size:18px;
+      font-weight: 200;
+      color: #fff;
+    }
+    .tc-mapIcons {
+      width:25px;
+      margin-right:5px;
+    }
+    .tc-mapText {
+      padding: 0px 20% 0 8%;
+    }
+    .tc-mapQuote {
+      font-size: 16px;
+    }
+    .tc-map {
+      /* width: 100%; */
+      background-color: #000;
+      padding: 30px 60px;
+    }
+    .tc-mapButton {
+      margin-top:25px;
+    }
+    .tc-mapPic {
+      float: right;
+      margin-left: 4rem;
+      margin-bottom: 1rem;
+    }
+    .tc-mapImg {
+      width: 450px;
+    }
+    /* map ends*/
+
+    /* cta-image starts */
+    .image-cta-background {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+        position: relative;
+        margin-top: 30px;
+        width: 100%;
+        min-height: 230px;
+        background-image: url(https://assets.deloitte.com/is/image/deloitte/gx-row-boat-people-sport-img-v4?$Responsive$&fmt=webp&fit=stretch,1&wid=1200&dpr=off);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image-cta-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 5em 3em;
+    }
+    .image-cta-content h4 {
+        color: #fff;
+        font-size: 2.2em;
+    }
+    .image-cta-content p[data-title*="${title"] {
+        display: none;
+    }
+    .image-cta-content p {
+        font-size: 1.6em;
+        max-width: 65%;
+        margin: 0 auto 2em auto;
+        color: #fff;
+    }
+    .image-cta-content a.button {
+        margin: 0 !important;
+    }
+    .image-cta-content p[data-description*="${description"] {
+        display: none;
+    }
+    /* cta-image ends */
+
+    /* Media query pour les smartphones en mode portrait */
+    @media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
+    /* Styles pour les smartphones en mode portrait */
+    }
+
+    /* Media query pour les smartphones en mode paysage */
+    @media only screen and (min-width: 768px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 1) {
+    /* Styles pour les smartphones en mode paysage */
+    }
+
+    /* Media query pour les tablettes */
+    @media only screen and (min-width: 768px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* Styles pour les tablettes */
+    }
+
+    /* Media query pour les laptops */
+    @media only screen and (min-width: 992px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* Styles pour les laptops */
+    }
+
+    /* Media query pour les écrans de bureau (desktops) */
+    @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* Styles pour les écrans de bureau (desktops) */
+    }
+
+    /* Media query pour les écrans haute résolution (Retina) */
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+      /* Styles pour les écrans haute résolution (Retina) */
+    }
+
+
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      /* Retina-specific stuff here */
+      .tc-videoTopContainer video {
+        height: 31rem;
+      }
+    }
+    /*************  Responsive Start *************/
+
+    /* iPad */
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      .ancrePhone {
+        display: none !important;
+      }
+      .tab-nav {
+        display: none;
+      }
+      .tc-selectTabs {
+        display: block;
+      }
+      /** put css here **/
+      .tc-videoTopContainer {
+        display: none;
+      }
+      .topic-introduction {
+        padding-top: 105px !important;
+      }
+      .tc-imageTopContainer {
+        display: block;
+        position: absolute;
+        top: 0%;
+        z-index: 0;
+      }
+      .tc-videoTopContainer video {
+        width: 100%;
+      }
+      .topic-description {
+        margin-left: 0;
+      }
+      .tc-arrowDownContainer {
+        top: 25rem;
+      }
+      .tc-rankings {
+        padding: 20px;
+      }
+      .tc-rankingsPic {
+        display: flex;
+        justify-content: center;
+        float: none;
+        margin-right: 0;
+      }
+      .tc-rankingsText {
+        padding: 0;
+      }
+
+      .tc-map {
+        padding: 20px;
+      }
+      .tc-mapPic {
+        float: none;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+      }
+      .tc-mapText {
+        padding: 0;
+      }
+
+      .tc-offerCards {
+        padding: 0;
+      }
+      .tc-offerCard {
+        width: 100%;
+      }
+      .tc-offerCardMiddle {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .tc-container {
+        width: 100%;
+      }
+      .featured-promo.insight-black,
+      .topic-promo-featured.insight-black {
+        min-height: 34rem;
+      }
+
+      .tc-contactInfo {
+        text-align: center !important;
+        width: 100%;
+        float: none;
+      }
+      .tc-contactPic {
+        width: 47%;
+        float: none;
+        margin-right: 0;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        /* display: flex; */
+        /* justify-content: center; */
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+      .tc-contactBio {
+        padding: 0 60px;
+      }
+      .tc-contactBio {
+        width: 100%;
+        float: none;
+        /* padding: 0; */
+      }
+      .tc-contactPictoLeft {
+        margin-left: 20px;
+      }
+      .tc-contactPictoRight {
+        margin-right: 20px;
+      }
+      .topic-description {
+        margin-top: 25%;
+      }
+      .topicpagebanner .dark {
+        height: 520px;
+      }
+      .tc-arrowDownContainer {
+        top: 29rem;
+      }
+
+      .tab-content {
+        padding: 0;
+      }
+      .tc-tabContent {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+      }
+      .tc-tabPic {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      .tc-tabCta {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    /* iPad Pro */
+
+    @media only screen and (max-width: 1366px) and (min-width: 1024px) {
+      /** put css here **/
+      .tc-videoTopContainer video {
+        width: 100%;
+      }
+      .tc-arrowDownContainer {
+        z-index: 2;
+        position: absolute;
+        /* top: 6%;
+                              right: 44%; */
+        top: 7%;
+        right: 47%;
+      }
+      .tc-womenText {
+        padding-left: 13rem;
+      }
+      .tc-mapText {
+        padding-right: 5rem;
+      }
+      .tc-offerCards {
+        padding: 0;
+      }
+      .tc-offerCard {
+        min-height: 19rem;
+      }
+
+      .tc-tabPic {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      .tc-tabCta {
+        display: flex;
+        justify-content: right;
+      }
+
+      .tc-contactInfo {
+        width: 19%;
+      }
+    }
+
+    /* Mobile */
+
+    @media only screen and (max-width: 767px) {
+    }
+
+    /* iPhone 4-5 */
+
+    @media only screen and (max-width: 359px) and (orientation: portrait) {
+    }
+
+    /* ################# RESPONSIVE ############### */
+
+    /* Responsive for iPhone 5 (portrait) */
+
+    @media only screen and (max-width: 360px) and (orientation: portrait) {
+    }
+
+    @media screen and (device-aspect-ratio: 40/71) {
+      /** put css here **/
+      .topicpagebanner .dark {
+        height: 380px;
+      }
+      .tc-arrowDownContainer {
+        z-index: 2;
+        position: absolute;
+        top: 21rem;
+        right: 44%;
+      }
+    }
+
+
+    /* Landscape phone to portrait tablet */
+    @media only screen and (max-width: 767px) and (min-width: 480px) {
+      .topic-introduction {
+        padding-top: 163px !important;
+      }
+    }
+
+    /* Landscape */
+    @media screen and (orientation: landscape) {
+      /* Landscape styles here */
+      /* .tc-arrowDownContainer {
+                                                  z-index: 2;
+                                                  position: absolute;
+                                                  top: 18rem;
+                                                  right: 45%;
+                                                  } */
+    }
+    @media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
+      .topic-introduction {
+        padding-top: 250px;
+      }
+    }
+    @media (max-width: 767px) {
+      .ancrePhone {
+        display: none !important;
+      }
+      .tab-nav {
+        display: none;
+      }
+      .tc-selectTabs {
+        display: block;
+      }
+      .tc-arrowDownContainer {
+        display: none;
+      }
+      .tc-videoTopContainer {
+        display: none;
+      }
+      .topic-introduction {
+        padding-top: 150px;
+      }
+      .tc-imageTopContainer {
+        display: block;
+        position: absolute;
+        top: 0%;
+        z-index: 0;
+      }
+      /** put css here **/
+      .tabbedMenuWrap {
+        display: none;
+      }
+      #topic-page-mobile-tabs {
+        display: none;
+      }
+      .tc-container {
+        padding: 10px;
+      }
+      .tc-classement {
+        width: 100%;
+      }
+      .tc-womenPic {
+        float: none;
+        margin-right: 0;
+      }
+      .tc-womenText {
+        padding: 0;
+      }
+      .tc-womenPic {
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+      }
+      .tc-mapPic {
+        float: none;
+        margin-left: 0;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+      }
+      .tc-mapText {
+        padding: 0;
+      }
+
+      .tc-offerCards {
+        padding: 0;
+      }
+      .tc-offerCard {
+        width: 100%;
+      }
+      .tc-offerCardMiddle {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .tc-container {
+        width: 100%;
+      }
+      .topic-description {
+        margin-left: 0;
+      }
+      .tc-slug {
+        text-align: center;
+      }
+
+
+      /* .tc-arrowDownContainer {
+                                                    z-index: 2;
+                                                    position: absolute;
+                                                    top: 25rem;
+                                                    right: 42%;
+                                                  } */
+      .topicpagebanner .dark {
+        height: 365px;
+      }
+
+      .tc-arrowDownContainer {
+        z-index: 2;
+        position: absolute;
+        top: 19.5rem;
+        right: 44%;
+      }
+      .tc-contactInfo {
+        text-align: center !important;
+        width: 100%;
+        float: none;
+      }
+      .tc-contactPic {
+        width: 50%;
+        float: none;
+        margin-right: 0;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        /* display: flex; */
+        /* justify-content: center; */
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+      .tc-contactBio {
+        padding: 0 60px;
+      }
+      .tc-contactBio {
+        width: 100%;
+        float: none;
+        /* padding: 0; */
+      }
+      .tc-contactPictoLeft {
+        margin-left: 20px;
+      }
+      .tc-contactPictoRight {
+        margin-right: 20px;
+      }
+      .tab-content {
+        padding: 0;
+      }
+      .tc-tabContent {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+      }
+      .tc-tabPic {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      .tc-tabCta {
+        display: flex;
+        justify-content: center;
+      }
+      .tab-link {
+        background-color: transparent;
+        border: 1px solid #86bc25;
+        border-radius: 2px;
+        margin-top: 1rem;
+        /* margin-bottom: 1rem; */
+        width: 100%;
+      }
+      .tc-tabContainer {
+        margin-top: 3rem;
+      }
+      .tab-link.is-active {
+        color: #86bc25;
+        background-color: transparent;
+        border: 1px solid #86bc25;
+        border-radius: 2px;
+        color: #fff !important;
+        background: #86bc25;
+      }
+      .tab-content.is-active {
+        display: block;
+        /* padding: 20px; */
+        padding: 0;
+      }
+      .layout-ctrl.table-frame .auto-width-column .insight-black {
+        margin-bottom: 0;
+        min-block-size: fit-content;
+      }
+      .tc-women {
+        padding: 20px;
+      }
+      .tc-map {
+        padding: 20px;
+      }
+      .topic-description {
+        padding-top: 25px;
+      }
+    }
+
+    /* Landscape phones and smaller */
+
+    @media (max-width: 480px) {
+    }
+
+    /*************  Responsive end *************/
+    .topic-image {
+      min-height: 100px;
+    }
+    .tc-contactPictoLeft img {
+      margin-left: 10px;
+    }
+    .tc-img {
+      width: 136px;
+    }
+
+    .tc-img2 {
+      width: 106px;
+    }
+
+    .ancrePhone {
+      width: 40px;
+    }
+    .contactAncreContainer {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .tc-linedInMain {
+      height: 30px;
+      width: 30px;
+
+      overflow: hidden;
+    }
+    .tc-linedInMain .activator {
+      height: 30px;
+      width: 30px;
+      float: left;
+      display: block;
+    }
+    .img {
+      text-align: center;
+      /* margin: 15px; */
+      height: 30px;
+      width: 30px;
+      float: left;
+    }
+    .tc-linkedInContent {
+      display: none;
+      /* margin: 15px; */
+      /* background: #fff;
+                              color: #000;
+                              font-size: 16px;
+                              height: 50px;
+                              border-radius: 110px;
+                              padding: 5px; */
+
+      background: #fff;
+      color: #000;
+      font-size: 16px;
+      height: 30px;
+      border-radius: 110px;
+      padding: 4px 8px;
+      /* border-top-right-radius: 110px; */
+      /* border-bottom-right-radius: 110px; */
+      /* border-top-right-radius: 25px; */
+      /* border-bottom-right-radius: 25px; */
+    }
+    .tc-likedin {
+      float: right;
+    }
+    .activator:hover {
+      width: 100px;
+    }
+    .activator:hover .tc-linkedInContent {
+      display: block;
+    }
+    .activator:hover .img {
+      float: left;
+    }
+
+    /*** Phone ***/
+
+    .tc-PhoneMain {
+      height: 30px;
+      width: 30px;
+
+      overflow: hidden;
+    }
+    .tc-PhoneMain .Phoneactivator {
+      height: 30px;
+      width: 30px;
+      float: left;
+      display: block;
+    }
+    .Phoneimg {
+      text-align: center;
+      /* margin: 15px; */
+      height: 30px;
+      width: 30px;
+      float: left;
+    }
+    .tc-PhoneContent {
+      display: none;
+      background: #86bc25;
+      color: #000;
+      font-size: 16px;
+      height: 30px;
+      border-radius: 110px;
+      padding: 4px 8px;
+      font-weight: bold;
+    }
+    .tc-tel {
+      float: right;
+    }
+    .Phoneactivator:hover {
+      width: 150px;
+    }
+    .Phoneactivator:hover .tc-PhoneContent {
+      display: block;
+    }
+    .Phoneactivator:hover .img {
+      float: left;
+    }
+    .tc-ctaWomen {
+      font-weight: bold;
+      color: #86bc25;
+      /* padding: 10px; */
+    }
+    .tc-ctaWomen:visited {
+
+      color: #86bc25;
+
+    }
+    .tc-ctaWomen:hover {
+      color: #fff;
+    }
+
+    .tc-ctaMap {
+      font-weight: bold;
+      color: #86bc25;
+      /* padding: 10px; */
+    }
+    .tc-ctaMap:visited {
+
+      color: #86bc25;
+
+    }
+    .tc-ctaMap:hover {
+      color: #fff;
+    }
+
+
+    /* to footer */
+    .tc-promoIn{
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    display: block;
+
+    }
+    .tc-promoOut{
+    animation: fadeOut ease 2s;
+    -webkit-animation: fadeOut ease 2s;
+    -moz-animation: fadeOut ease 2s;
+    -o-animation: fadeOut ease 2s;
+    -ms-animation: fadeOut ease 2s;
+    display: none;
+
+
+    }
+
+    a {
+    outline: 0;
+    }
+
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+
+
+    @keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+    }
+
+    @-moz-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+    }
+
+    @-webkit-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+    }
+
+    @-o-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+    }
+
+    @-ms-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+    }
+
+
+    .tc_readmoreBtn:focus {
+        outline: none !important;
+        box-shadow: none;
+      }
+      .tc_readmoreBtn {
+        outline: none !important;
+      }
+
+    /* Add */
+
+
+    @media only screen and (max-width: 700px) {
+        .image-cta-background {
+            background-size: cover;
+        }
+
+        .image-cta-content h4 {
+            color: #fff;
+            font-size: 1.8em;
+        }
+    }
